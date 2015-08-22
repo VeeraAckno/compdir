@@ -1,0 +1,317 @@
+html, body {
+    
+    height: 100%;
+    
+}
+
+.navbar-static-top {
+
+    background-color: #3C8DBC !important;
+}
+
+.navbar a {
+    color: #f7f7f7;
+
+}
+
+.dropdown-menu li a:hover {
+    color: #ffffff;
+    background: black;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown-menu {
+    background: #f7f7f7;
+    padding: 10px;
+    min-width: 185px;
+    margin-top: 1px !important;
+    border-radius: 0;
+    font-size: 1em;
+}
+
+.dropdown-toggle:hover{
+    background-color: blue !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-top-color: aliceblue;
+    border-bottom-color: lightblue;
+}
+
+#slideshow {
+    position: relative;
+    width: 240px;
+    height: 160px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.col-md-3 h3{
+    text-align: center;
+}
+
+.carousel {
+    margin-bottom: 5%;
+    padding-top: 60px;
+}
+
+.box{
+    width: 222px;
+    height: 250px;
+     border: 2px #888 solid;
+    float: left;
+    background: rgb(240,249,255);
+
+    color: #4B4B4B;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 7%;
+    text-align: justify;
+}
+
+#box-2{
+    background: -moz-linear-gradient(top, rgba(240,249,255,1) 0%, rgba(161,219,255,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(100%,rgba(161,219,255,1)));
+    background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(161,219,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(161,219,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(161,219,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,249,255,1) 0%,rgba(161,219,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 );
+}
+
+#box-1{
+    background: -moz-linear-gradient(top, rgba(240,249,255,1) 0%, rgba(211,211,211,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(100%,rgba(211,211,211,1)));
+    background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(211,211,211,1) 100%);
+    background: -o-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(211,211,211,1) 100%);
+    background: -ms-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(211,211,211,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,249,255,1) 0%,rgba(211,211,211,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#d3d3d3',GradientType=0 );
+}
+
+#box-3{
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(180,223,91,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,1)), color-stop(100%,rgba(180,223,91,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(180,223,91,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(180,223,91,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(180,223,91,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(180,223,91,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b4df5b',GradientType=0 );
+}
+
+#boxes{
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+#boxes img {
+    height: 45%;
+    margin-left: 24%;
+}
+
+#boxes p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 87% !important;
+}
+
+#boxes h4 {
+    text-align: center;
+}
+
+.footer p {
+    float: left;
+    margin-right: 2%;
+}
+
+p#copyright {
+    float: right;
+}
+
+footer.footer {
+    background-color: #666;
+    height: 40px;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+#secondary{
+    padding-top: 90px;
+    /*min-height: 600px;*/
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /*margin: 0 auto -60px;*/
+}
+
+p.bold-list {
+    font-weight: bold;
+}
+
+img.tech-img {
+    border: 1px solid black;
+}
+
+#slideshow img{
+    width: 100%;
+    height: 100%;
+}
+
+#secondary p{
+    text-align: justify;
+}
+
+#solutions a {
+    margin-left: 20px;
+}
+
+.col-md-4 #slideshow{
+    width: 350px;
+    height: 225px;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
+
+#slideshow{
+    margin-top: 30px;
+}
+
+#team img {
+    width: 80%;
+    height: 245px;
+}
+
+#team h3 {
+    text-align: left;
+}
+
+div#team {
+    margin-bottom: 40px;
+}
+
+.jobs-table{
+    width: 100%;
+}
+
+.jobs-table th {
+    text-align: center;
+}
+
+p.jobs-details {
+    display: none;
+}
+th.col-md-8{
+    text-align: left;
+}
+
+/*menu*/
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
+
+.nav>li>a:hover{
+    background-color: black;
+}
+
+.search-bar{
+    width: 220px;
+    padding-top: 8px;
+}
+
+ul .active .menu-active {
+    font-size: 130%;
+}
+
+.bs-docs-nav .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.gsc-selected-option-container{
+    font-size: 9px !important;
+}
+
+#searchform{
+    padding-right: 11px;
+}
+
+/*Employee Id alerts*/
+div#emp-alert {
+    height: 35px;
+    font-size: 13px;
+}
+
+#register-form .form-group{
+    margin-bottom: 35px;
+}
+
+#eid-1, #eid-2, #eid-3{
+    display: none;
+    height: 30px
+}
+
+#eid-2, #eid-3{
+    color: red;
+}
+
+#employee-id{
+    margin-bottom: 0px !important;
+}
+
+
+/* MEDIA QUERIES*/
+@media screen and (max-width: 1200px) {
+    #searchform{
+        display: none;
+    }
+}
+
+
+div#google_translate_element {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* logo adjustment*/
+
+.navbar-brand{
+    padding: 0px !important;
+    margin-right: 20px;
+}
+
+.navbar-brand img{
+    height: 130%;
+  margin-top: 2px;
+}
+
+h2{
+    font-weight: bold;
+}
